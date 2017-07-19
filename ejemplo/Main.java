@@ -32,10 +32,12 @@ package ejemplo;
       return numero1 * numero2;
     }
     public static double division(double numero1, int numero2)throws Exception{
-      if (numero2 == 2){
+      if (numero2 == 0){
         throw new Exception("No es posible hacer division por cero");
         (==0)
       }
       return numero1 / numero2;
     } 
   }
+
+  
